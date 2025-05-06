@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>মোঃ শাফিন - Personal Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+    }
+    body {
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      overflow-x: hidden;
+      animation: fadeIn 2s ease;
+    }
+    header {
+      padding: 30px;
+      text-align: center;
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 0 10px rgba(255,255,255,0.1);
+    }
+    h1 {
+      font-size: 3rem;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: slideIn 1.5s ease, fadeText 3s ease-in-out infinite alternate;
+    }
+    @keyframes slideIn {
+      from { transform: translateY(-50px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+    @keyframes fadeText {
+      0% { color: rgba(255, 255, 255, 0); }
+      50% { color: rgba(255, 255, 255, 1); }
+      100% { color: rgba(255, 255, 255, 0); }
+    }
+    .content {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 30px;
+      background-color: rgba(255, 255, 255, 0.1);
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+      animation: scaleIn 1s ease;
+    }
+    .section {
+      margin-bottom: 30px;
+    }
+    .section h2 {
+      font-size: 1.8rem;
+      color: #00ffff;
+      margin-bottom: 10px;
+      border-bottom: 1px solid #00ffff;
+      padding-bottom: 5px;
+    }
+    .section p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #bbb;
+      border-top: 1px solid #444;
+    }
+    .contact-strip {
+      text-align: center;
+      background: rgba(0, 0, 0, 0.3);
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 1rem;
+      color: #eee;
+      border-top: 1px solid #555;
+    }
+    .contact-strip a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+    @keyframes scaleIn {
+      from { transform: scale(0.8); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>মোঃ শাফিন</h1>
+    <p>একজন উদীয়মান ওয়েব ডেভেলপার ও প্রযুক্তিপ্রেমী</p>
+  </header>
+
+  <div class="content">
+    <div class="section">
+      <h2>আমার সম্পর্কে</h2>
+      <p>আমি মোঃ শাফিন, একজন আগ্রহী ওয়েব ডেভেলপার। আমি নতুন নতুন টেকনোলজি শেখা এবং তা দিয়ে অসাধারণ কিছু বানাতে ভালোবাসি। আমার লক্ষ্য হলো একজন প্রফেশনাল সফটওয়্যার ইঞ্জিনিয়ার হওয়া আগের গুলা সবই চাপা কেউ আবার সিরিয়াসলি নিয়েন না।</p>
+    </div>
+    <div class="section">
+      <h2>স্কিলস</h2>
+      <p>HTML, CSS, JavaScript, Python, UI/UX Design, Responsive Design</p>
+    </div>
+    <div class="section">
+      <h2>যোগাযোগ</h2>
+      <p>ইমেইল: <a href="mailto:shafin06022008@gmail.com">shafin06022008@gmail.com</a><br>
+         ফোন: <a href="tel:+8801317087493">01317087493</a><br>
+         ফেসবুক: <a href="https://www.facebook.com/share/16VTYCFEuc/" target="_blank">আমার ফেসবুক প্রোফাইল</a><br>
+         ঠিকানা: পাঁচকাঠি,হাটুরিয়া, গোসাইরহাট,শরীয়তপুর।
+      </p>
+    </div>
+  </div>
+
+  <div class="contact-strip">
+    ঠিকানা: পাঁচকাঠি,হাটুরিয়া, গোসাইরহাট,শরীয়তপুর | ফোন: <a href="tel:+8801317087493">01317087493</a> | ইমেইল: <a href="mailto:shafin06022008@gmail.com">shafin06022008@gmail.com</a> | ফেসবুক: <a href="https://www.facebook.com/share/16VTYCFEuc/" target="_blank">ফেসবুক প্রোফাইল</a>
+  </div>
+
+  <footer>
+    &copy; 2025 মোঃ শাফিন. সর্বস্বত্ব সংরক্ষিত।
+  </footer>
+</body>
+</html>
